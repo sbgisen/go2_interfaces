@@ -27,6 +27,7 @@ rosidl_generate_interfaces(
   "srv/ContinuousGait.srv"
   "srv/Euler.srv"
   "srv/FootRaiseHeight.srv"
+  "srv/GetAutoRecovery.srv"
   "srv/GetBodyHeight.srv"
   "srv/GetBrightness.srv"
   "srv/GetFootRaiseHeight.srv"
