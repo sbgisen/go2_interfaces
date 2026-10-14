@@ -9,5 +9,5 @@ bool enable
 bool success
 string message
 
-# Service status the robot reports back: 1 running, 0 stopped.
+# Service status the robot reports back: 0 running, 1 stopped.
 int32 status

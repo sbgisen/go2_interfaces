@@ -4,7 +4,8 @@
 # Service name, e.g. "sport_mode".
 string name
 
-# 1 while the service is running, 0 while it is stopped.
+# 0 while the service is running, 1 while it is stopped.
+# -1 when the robot reported no status for this entry.
 int32 status
 
 # Non-zero for services that may not be switched off.
