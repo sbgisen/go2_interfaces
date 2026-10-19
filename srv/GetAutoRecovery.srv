@@ -1,0 +1,6 @@
+# Get whether the robot stands back up by itself after a fall (Sport API 2055).
+
+---
+bool success
+string message
+bool enable

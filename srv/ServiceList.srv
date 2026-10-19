@@ -1,0 +1,6 @@
+# List the robot's internal services and their current state (Robot State API 1003).
+
+---
+bool success
+string message
+ServiceState[] services

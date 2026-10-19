@@ -1,0 +1,13 @@
+# Set how often the robot reports its internal service state (Robot State API 1002).
+# The robot reports every `interval` seconds for the next `duration` seconds,
+# then falls back to its default rate.
+#
+# The robot sends no reply to this request, so `success` only means the request
+# was published.
+
+int32 interval
+int32 duration
+
+---
+bool success
+string message
